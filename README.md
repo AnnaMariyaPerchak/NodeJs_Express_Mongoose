@@ -2,7 +2,8 @@
 
 To start project:
   1. npm install
-  2.npm start
+  2. 
+  3.npm start
   
 HTTP-reguest,made by me :
   1.create new todo-action  http://localhost:3000/api/todo/add
