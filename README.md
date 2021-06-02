@@ -6,9 +6,8 @@ To start project:
   
 HTTP-reguest,made by me :
 
-  1.create new todo-action  http://localhost:3000/api/todo/add
-  
-  2.see all todo-actions  http://localhost:3000/api/todos
+    1.create new todo-action  http://localhost:3000/api/todo/add
+    2.see all todo-actions  http://localhost:3000/api/todos
   
   3.update definite todo-action  http://localhost:3000/api/todo/_todoId_/update
   
