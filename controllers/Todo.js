@@ -1,5 +1,5 @@
 const Todo = require("../models/Todo");
-
+// Try to rewrite this handles using async await
 exports.getTodoById = (req, res, next, todoId) => {
   Todo.findById(todoId).exec((err, todo) => {
     if (err || !todo) {
