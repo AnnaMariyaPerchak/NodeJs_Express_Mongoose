@@ -42,6 +42,7 @@ exports.addTodo = (req, res) => {
 };
 
 exports.updateTodo = (req, res) => {
+//   you can use joi to validate params
   const todo = req.todo;
   todo.task = req.body.task;
   todo.done = req.body.done;
